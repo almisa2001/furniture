@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --brown:rgb(50,22,22)
+}
+body{
+    overflow-x: hidden;
+}
+#logo{
+    width: 120%;
+    height: 130px;
+}
+ul li{
+    font-size: 20px;
+}
+li i{
+    color: rgb(117, 128, 138);
+}
+#contact{
+    background-color: rgb(174, 25, 25);
+    color: white;  
+}
+#contact:hover{
+    background-color: white;
+    color: rgb(159, 18, 18);
+    border-color: rgb(165, 35, 35);
+}
+@media (min-width:992px){
+    ul{
+        display: flex;
+        align-items: center;
+    }   
+}
+@media(max-width:992px){
+    li i{
+        visibility: hidden;
+    }
+
+}
+.main{
+    background-image: url('./images/bgimg2.jpg');
+    width:100%;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    
+    
+}
+/*   .bg{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(202, 198, 198); 
+}  */ 
+/* body{
+    overflow-x: hidden;
+} */
+.welcome{
+    padding-top: 10%;
+    padding-left: 8%;
+}
+.welcome p{
+    color: white;
+    font-size: 30px;
+}
+.welcome h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 500px;
+}
+@media (max-width:600px){
+    .welcome p{
+        padding-top: 20%;
+    }
+    .welcome h1{
+        font-size: 50px;
+    }
+}
+#contactbtn{
+    color: white;
+    border-color:white ;
+    font-size: 20px;
+}
+
+.work{
+    /* background-image: url('');  */
+    height: 50vh;
+    background-size: cover;
+    padding-top: 8%;
+    margin-left: 50px;
+    
+}
+.work h1{
+    font-size: 30px;
+    color: black;
+    margin-top: -30px;
+}
+.card{
+    height: 100%;
+}
+.viewBtn{
+    border-color:var(--brown) ;
+    color: var(--brown);
+
+}
+.viewBtn:hover{
+    background-color: var(--brown);
+    color: white;
+}
+#about{
+    background-color: lightgray;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 5px;
+
+}
+#aboutimg{
+    border: 7px solid var(--brown);
+    height: 450px;
+    width: 100%;
+}
+.head{
+    color: brown;
+}
+.line{
+    height: 4px;
+    width: 150px;
+    border-top: 5px solid brown;
+}
+.prohead1{
+    width: 50%;
+    /* height: 6%; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proimg1{
+    position: relative;
+    
+}
+.about{
+    margin-top: 500px;
+}
+#im{
+    height: 620px;
+}
+.prohead2{
+    width: 50%;
+    /* height: 6%; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.proimg2{
+    position: relative;   
+}
+#im1{
+    height: 300px;
+}
+.proimg3{
+    position: relative;  
+    margin-top: 20px; 
+}
+.prohead3{
+    width: 50%;
+    /* height: 6%; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prohead4{
+    width: 25%;
+    /* height: 6%; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.proimg4{
+    position: relative;   
+}
+#im4{
+    height: 300px;
+    margin-left: 50px;
+}
+.prohead5{
+    width: 50%;
+    /* height: 6%; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.proimg5{
+    position: relative;   
+}
+#im5{
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.proimg6{
+    position: relative;  
+    margin-top: 20px; 
+}
+.prohead6{
+    width: 50%;
+    /* height: 6%; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#im6{
+    height: 620px;
+    margin-left: -60px;
+}
+.testimonials{
+    margin-top: 50%;
+}
+.testimonials .people{
+ margin-left: 8%;
+}
+.testiImg{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    /* height: 450px; */
+    margin-top: 8%;
+}
+
